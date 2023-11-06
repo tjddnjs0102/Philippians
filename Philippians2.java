@@ -38,16 +38,16 @@ public class Philippians2 {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.print("안녕하세요? 빌립보서 2장을 암송하시려면 1을 입력하세요. (0으로 종료): ");
+            System.out.print("안녕하세요? 빌립보서 2장을 암송하시려면 2을 입력하세요. (0으로 종료): ");
             String userInput = scanner.nextLine();
 
-            if (userInput.equals("1")) {
+            if (userInput.equals("2")) {
                 processChapter(scanner);
             } else if (userInput.equals("0")) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
             } else {
-                System.out.println("잘못된 입력입니다. 1을 입력하여 시작하거나 0을 입력하여 종료하세요.");
+                System.out.println("잘못된 입력입니다. 2을 입력하여 시작하거나 0을 입력하여 종료하세요.");
             }
         }
     }
